@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-Poppins scroll-smooth">
+    <nav class="py-5 bg-white sticky top-0 border-b border-gray-100 z-20">
+      <div
+        class="container md:px-12 md:flex md:items-center md:justify-between"
+      >
+        <div class="flex items-center justify-between">
+          <a href="#" class="flex items-center justify-between">
+            <img src="/src/img/Untitled-2.png" alt="Logo" class="" />
+          </a>
+          <span class="block mx-2 text-3xl p-2 md:hidden bg-white">
+            <ion-icon
+              class="w-6 h-6"
+              onclick="Menu(this)"
+              name="menu"
+            ></ion-icon>
+          </span>
+        </div>
+
+        <ul
+          class="p-5 z-20 absolute bg-white backdrop-blur w-full left-0 py-4 opacity-0 top-[-400px] transition-all ease-in duration-500 md:p-0 md:flex md:items-center md:space-x-8 md:static md:w-auto md:opacity-100"
+        >
+          <li class="md:my-0">
+            <a
+              href="#home"
+              class="font-medium duration-500 text-gray-900 hover:text-indigo- uppercase font-Poppins"
+              >Home</a
+            >
+          </li>
+          <li class="my-6 md:my-0">
+            <a
+              href="#about"
+              class="font-medium duration-500 text-gray-900 hover:text-indigo- uppercase font-Poppins"
+              >About</a
+            >
+          </li>
+          <li class="my-6 md:my-0">
+            <a
+              href="#skills"
+              class="font-medium duration-500 text-gray-900 hover:text-indigo- uppercase font-Poppins"
+              >Skills</a
+            >
+          </li>
+          <li class="my-6 md:my-0">
+            <a
+              href="#projects"
+              class="font-medium duration-500 text-gray-900 hover:text-indigo- uppercase font-Poppins"
+              >Projects</a
+            >
+          </li>
+          <a href="/src/File/joshua.pdf">
+            <button
+              type="button"
+              class="w-full text-white bg-primary-color font-medium rounded-lg px-3.5 py-3 text-center hover:bg-indigo-500 hover:drop-shadow-md transition duration-300 ease-in-out"
+            >
+              Donwload CV
+            </button>
+          </a>
+        </ul>
+      </div>
+    </nav>
+    <!-- NavSection -->
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="md:py-32 min-h-min bg-gradient-to-t from-indigo-100 px-4"
+    >
+      <div
+        class="container flex md:flex-1 flex-wrap items-center mx-auto mt-10 md:px-12 md:flex-row"
+      >
+        <div class="mb-14 lg:mb-0 md:w-1/2">
+          <h1 class="max-w-xl font-medium text-gray-700 md:text-xl">
+            Hi There! Im
+          </h1>
+          <p class="text-3xl font-semibold md:text-5xl my-1">
+            <span class="text-primary-color">Joshua Malalad</span>
+          </p>
+          <p
+            class="max-w-xl text-gray-500 lg:max-w-md tracking-widest md:text-xl"
+          >
+            Junior Web Developer
+          </p>
+          <p class="my-12 max-w-xl text-lg">
+            Take one step at a time, don't rush the progress.
+            <span class="text-primary-color">Good things takes time</span>
+          </p>
+
+          <div class="flex items-center mt-14 lg:justify-start">
+            <button
+              type="button"
+              class="text-white bg-primary-color border hover:bg-white hover:text-primary-color hover:border-primary-color font-medium rounded-full px-5 py-4 text-center hover:drop-shadow-xl transition duration-500 min-w-[150px] outline-none"
+            >
+              Hire Me
+            </button>
+            <button
+              type="button"
+              class="ml-4 text-primary-color border border-secondary-color bg-white hover:text-primary-color hover:border-primary-color font-medium rounded-full px-5 py-4 text-center hover:drop-shadow-xl transition duration-500 min-w-[150px]"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+
+        <div class="md:h-1/2 flex-1">
+          <img
+            class="ml-auto place-content-center"
+            src="img/herofinal.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Sections -->
+    <section id="#about" class="py-24 px-4">
+      <div class="h-min flex flex-wrap container mx-auto flex-1">
+        <div class="md:w-1/2">
+          <h1 class="text-[40px] font-semibold text-primary-color">About Me</h1>
+
+          <p class="py-12">
+            My name is Joshua Malalad, I lived at Area 47 S.Palay San Jose
+            Delmonte Bulacan, Im 23 yearss old i graduated at STI Fairview
+            College year 2023. My Passion is to be a Web / System Developer.
+          </p>
+
+          <p class="mb-9">
+            During my time as an intern, I was able to learn how to utilize
+            Adobe Photoshop to create a mockup design. When designing a mockup
+            there are things that need to be considered. At the same time, I
+            could access Cpanel to create a new account for a client and a new
+            database for them. Inside the Control Panel, I learnt how to install
+            WordPress, Themes, Plugins, and so on. I learned how to develop
+            WordPress websites and thus enhance my programming and website
+            design skills.
+          </p>
+
+          <div class="container mx-auto">
+            <h3 class="text-2xl text-primary-color">Social Media Accounts</h3>
+            <div class="flex flex-wrap items-center my-2 space-x-3">
+              <div
+                class="border rounded-full text-3xl p-2 bg-white hover:drop-shadow-md"
+              >
+                <a
+                  target="_blank"
+                  href="https://github.com/JoshuaPapay"
+                  class="flex justify-center items-center"
+                >
+                  <ion-icon
+                    name="logo-github"
+                    class="hover:text-primary-color transition duration-500"
+                  ></ion-icon>
+                </a>
+              </div>
+              <div
+                class="border rounded-full text-3xl p-2 bg-white hover:drop-shadow-md"
+              >
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/papay.papay.50115"
+                  class="flex justify-center items-center"
+                >
+                  <ion-icon
+                    name="logo-facebook"
+                    class="hover:text-primary-color transition duration-500"
+                  ></ion-icon>
+                </a>
+              </div>
+              <div
+                class="border rounded-full text-3xl p-2 bg-white hover:drop-shadow-md"
+              >
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/papay_at/"
+                  class="flex justify-center items-center"
+                >
+                  <ion-icon
+                    name="logo-instagram"
+                    class="hover:text-primary-color transition duration-500"
+                  ></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:w-1/2 flex justify-end">
+          <img
+            src="/src/img/aboutphoto.png"
+            alt="AboutPics"
+            class="bg-secondary-color rounded-xl"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+
+    <section id="#skills" class="py-24 px-4 bg-indigo-100">
+      <div class="container min-h-min mx-auto">
+        <div>
+          <h1
+            class="text-[40px] font-semibold text-primary-color my-2 text-center"
+          >
+            Technical Skills
+          </h1>
+
+          <h3 class="text-2xl text-primary-color font-medium my-5">
+            Programming / Frameworks
+          </h3>
+        </div>
+        <div class="grid grid-rows-1 md:grid-flow-col gap-4">
+          <div>
+            <p class="text-lg my-2">Python <span class="ml-[40%]">50%</span></p>
+            <div
+              class="w-full border border-primary-color h-2 rounded-full flex items-center overflow-hidden bg-white"
+            >
+              <div
+                class="w-[50%] border bg-primary-color h-2 rounded-full"
+              ></div>
+            </div>
+
+            <p class="text-lg my-2">
+              JavaScript<span class="ml-[60%] md:ml-[55%] lg:ml-[61%]"
+                >85%</span
+              >
+            </p>
+            <div
+              class="w-full border border-primary-color h-2 rounded-full flex items-center overflow-hidden bg-white"
+            >
+              <div
+                class="w-[85%] border bg-primary-color h-2 rounded-full"
+              ></div>
+            </div>
+
+            <p class="text-lg my-2">C# <span class="ml-[55%]">65%</span></p>
+            <div
+              class="w-full border border-primary-color h-2 rounded-full flex items-center overflow-hidden bg-white"
+            >
+              <div
+                class="w-[65%] border bg-primary-color h-2 rounded-full"
+              ></div>
+            </div>
+
+            <p class="text-lg my-2">
+              Html<span class="ml-[72%] md:ml-[68%]">85%</span>
+            </p>
+            <div
+              class="w-full border border-primary-color h-2 rounded-full flex items-center overflow-hidden bg-white"
+            >
+              <div
+                class="w-[85%] border bg-primary-color h-2 rounded-full"
+              ></div>
+            </div>
+          </div>
+
+          <div>
+            <p class="text-lg my-2">Java <span class="ml-[50%]">55%</span></p>
+            <div
+              class="w-full border border-primary-color h-2 rounded-full flex items-center overflow-hidden bg-white"
+            >
+              <div
+                class="w-[55%] border bg-primary-color h-2 rounded-full"
+              ></div>
+            </div>
+
+            <p class="text-lg my-2">
+              Bootstrap 5<span class="ml-[60%]">85%</span>
+            </p>
+            <div
+              class="w-full border border-primary-color h-2 rounded-full flex items-center overflow-hidden bg-white"
+            >
+              <div
+                class="w-[85%] border bg-primary-color h-2 rounded-full"
+              ></div>
+            </div>
+
+            <p class="text-lg my-2">
+              TailwindCss<span class="ml-[60%]">85%</span>
+            </p>
+            <div
+              class="w-full border border-primary-color h-2 rounded-full flex items-center overflow-hidden bg-white"
+            >
+              <div
+                class="w-[85%] border bg-primary-color h-2 rounded-full"
+              ></div>
+            </div>
+
+            <p class="text-lg my-2">
+              React.js<span class="ml-[60%]">65%</span>
+            </p>
+            <div
+              class="w-full border border-primary-color h-2 rounded-full flex items-center overflow-hidden bg-white"
+            >
+              <div
+                class="w-[65%] border bg-primary-color h-2 rounded-full"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Development tools -->
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="#projects" class="py-24 px-4 h-min">
+      <div class="container mx-auto">
+        <h1
+          class="text-[40px] text-primary-color font-semibold mb-10 text-center"
+        >
+          My Projects
+        </h1>
+        <div class="grid md:grid-cols-2 gap-2 place-items-center">
+          <div class="px-4 py-5 border rounded-2xl shadow-lg max-w-[700px]">
+            <h1 class="text-primary-color font-medium text-xl mb-8">
+              2D Platformer Game
+            </h1>
+            <p class="antialiased mb-7">
+              Developed a 2D Game using C# as Scripts and Unity Game Engine as
+              its IDE to present in school activities.
+            </p>
+            <a
+              href="https://drive.google.com/drive/folders/1nXI8JFQlWHa8HHXIBm51ZKgIDKEQJvWO?usp=sharing"
+              target="_blank"
+            >
+              <button
+                type="button"
+                class="text-primary-color border border-secondary-color bg-white hover:text-primary-color hover:border-primary-color font-medium rounded-xl px-5 py-4 text-center hover:drop-shadow-xl transition duration-500 min-w-[150px]"
+              >
+                Learn More
+              </button>
+            </a>
+          </div>
+
+          <div class="px-4 py-5 border rounded-2xl shadow-lg max-w-[700px]">
+            <h1 class="text-primary-color font-medium text-xl mb-8">
+              JavaScript Small Projects
+            </h1>
+            <p class="antialiased mb-7">
+              Developed a Simple Project using JavaScript, Html, and CSS to
+              enhance my skills in programming.
+            </p>
+            <a href="#">
+              <button
+                type="button"
+                class="text-primary-color border border-secondary-color bg-white hover:text-primary-color hover:border-primary-color font-medium rounded-xl px-5 py-4 text-center hover:drop-shadow-xl transition duration-500 min-w-[150px]"
+              >
+                Learn More
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section
+      id="contact"
+      class="bg-auto bg-no-repeat bg-center py-24 px-4 min-h-min"
+      style="background-image: url(./src/img/bg2ndtry.jpg)"
+    >
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap lg:justify-evenly">
+          <div class="lg:2/5">
+            <h1 class="text-[40px] text-primary-color font-semibold mb-12">
+              Get In Touch
+            </h1>
+
+            <p class="align- my-5">
+              <ion-icon
+                class="text-3xl font-medium relative top-2.5 mr-4 text-primary-color"
+                name="send-outline"
+              ></ion-icon>
+              <span class="text-xl">joshuapapay123@gmail.com</span>
+            </p>
+
+            <p class="align- my-5">
+              <ion-icon
+                class="text-3xl font-medium relative top-2.5 mr-4 text-primary-color"
+                name="call-outline"
+              ></ion-icon>
+              <span class="text-xl">09602101860</span>
+            </p>
+
+            <div class="flex px-2 gap-5 mt-14">
+              <a
+                class="text-4xl text-primary-color hover:drop-shadow-xl hover:-translate-y-3 transition-all ease-in-out duration-500"
+                href=""
+                ><ion-icon name="logo-facebook"></ion-icon
+              ></a>
+              <a
+                class="text-4xl text-primary-color hover:drop-shadow-xl hover:-translate-y-3 transition-all ease-in-out duration-500"
+                href=""
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+              <a
+                class="text-4xl text-primary-color hover:drop-shadow-xl hover:-translate-y-3 transition-all ease-in-out duration-500"
+                href=""
+                ><ion-icon name="mail-outline"></ion-icon
+              ></a>
+            </div>
+          </div>
+
+          <div class="lg:w-3/5 mt-14 lg:mt-0">
+            <div class="flex w-full flex-col lg:items-center lg:justify-center">
+              <input
+                type="text"
+                class="min-w-[400px] lg:w-1/2 px-2 py-3 rounded-md border-2 outline-none my-2"
+                placeholder="Enter Name"
+              />
+
+              <input
+                type="email"
+                class="min-w-[400px] lg:w-1/2 px-2 py-3 rounded-md border-2 outline-none my-2"
+                placeholder="Your Email"
+              />
+
+              <textarea
+                name=""
+                id=""
+                rows="10"
+                placeholder="Your message"
+                class="min-w-[400px] max-h-[100px] lg:w-1/2 px-2 py-3 rounded-md border-2 outline-none my-2"
+              ></textarea>
+              <a href="#">
+                <button
+                  type="button"
+                  class="text-primary-color border border-secondary-color bg-white hover:text-primary-color hover:border-primary-color font-medium rounded-md px-2 py-3 text-center hover:drop-shadow-xl transition duration-500 min-w-[400px] lg:min-w-[450px]"
+                >
+                  Learn More
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="min-h-min container px-4 py-5 mx-auto">
+      <p class="text-center text-lg font-medium">All Good things takes time</p>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
